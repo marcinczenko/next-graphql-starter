@@ -1,8 +1,3 @@
-import Head from '../components/Head';
+import Home from '../components/Home';
 
-export default () => (
-  <>
-    <Head />
-    <h1>next-graphql-starter</h1>
-  </>
-);
+export default () => <Home />;
