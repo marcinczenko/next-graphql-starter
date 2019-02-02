@@ -7,7 +7,7 @@
     "dev": "next -p 7777",
     "build": "next build",
     "start": "next start",
-    "lint": "./node_modules/.bin/eslint . --ignore-pattern node_modules/",
+    "lint": "./node_modules/.bin/eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -23,6 +23,7 @@
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.13.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4"
   }
 }
