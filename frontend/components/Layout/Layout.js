@@ -5,19 +5,19 @@ import theme from '../styles/theme.style';
 import Head from '../Head/Head';
 import Header from '../Header/Header';
 
-const Layout = props => (
+const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
     <>
       <GlobalStyle />
       <Head />
       <Header />
-      <main>{props.children}</main>
+      <main>{children}</main>
     </>
   </ThemeProvider>
 );
 
 Layout.propTypes = {
-  children: PropTypes.object.isRequired
+  children: PropTypes.node.isRequired
 };
 
 export default Layout;
