@@ -14,10 +14,16 @@
   },
   "plugins": ["react"],
   "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "rules": {
-    "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error",
-    "react/react-in-jsx-scope": [0],
-    "react/display-name": [0]
+  "settings": {
+    "pragma": "React",
+    "react": {
+      "version": "detect"
+    },
+    "rules": {
+      "react/jsx-uses-react": "error",
+      "react/jsx-uses-vars": "error",
+      "react/react-in-jsx-scope": [0],
+      "react/display-name": [0]
+    }
   }
 }
