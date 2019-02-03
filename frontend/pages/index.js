@@ -1,3 +1,5 @@
 import Home from '../components/Home/Home';
 
-export default () => <Home />;
+const IndexPage = () => <Home />;
+
+export default IndexPage;
