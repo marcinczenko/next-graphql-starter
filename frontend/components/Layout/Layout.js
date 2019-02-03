@@ -7,12 +7,12 @@ import Header from '../Header/Header';
 
 const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
-    <div>
+    <>
       <GlobalStyle />
       <Head />
       <Header />
       <main>{children}</main>
-    </div>
+    </>
   </ThemeProvider>
 );
 
