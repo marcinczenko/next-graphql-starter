@@ -6,7 +6,7 @@
     { "src": "frontend/package.json", "use": "@now/next" }
   ],
   "routes": [
-    { "src": "frontend/static/(.*)", "dest": "/static/$1" },
-    { "src": "frontend/(.*)", "dest": "/$1" }
+    { "src": "/static/(.*)", "dest": "/frontend/static/$1" },
+    { "src": "/(.*)", "dest": "/frontend/$1" }
   ]
 }
