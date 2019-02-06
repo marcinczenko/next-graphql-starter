@@ -1,17 +1,17 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Header from './Header';
+import Home from '../../../components/Home/Home';
 
 describe('round', () => {
   let mockProps;
-  let header;
+  let home;
 
   beforeEach(() => {
     mockProps = {};
-    header = shallow(<Header {...mockProps} />);
+    home = shallow(<Home {...mockProps} />);
   });
 
   it('matches snapshot', () => {
-    expect(header).toMatchSnapshot();
+    expect(home).toMatchSnapshot();
   });
 });

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Head from './Head';
+import Head from '../../../components/Head/Head';
 
 describe('round', () => {
   let mockProps;
